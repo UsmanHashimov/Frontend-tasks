@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    width: 380px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header p{
+    font-size: 30px;
+    margin-left: -250px;
+    
+}
+
+header, footer {
+    background-color: #DE8704;
+    text-align: center;
+    padding: 10px 0;
+    height: 60px;
+}
+.content {
+    flex-grow: 1;
+    background-color: #222536;
+    padding: 20px;
+    overflow: auto;
+}
+
+p,label{
+ 
+    color: #D4C32A;
+    margin: auto;
+
+}
+
+.Submit{
+    background-color: #62AF5E;
+    width: 80px;
+    color: white;
+    margin-top: 6px;
+    height: 38px;
+    margin-left: 190px;
+    border: 0;
+
+}
+.Cancel{
+    background-color: #D9544F;
+    width: 80px;
+    color: white;
+    border: 0;
+    margin-left:10px;
+    margin-top: 6px;
+    height: 38px;
+    
+}
