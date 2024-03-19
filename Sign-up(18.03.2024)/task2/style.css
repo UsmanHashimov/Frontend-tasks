@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;   
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+}
+table{
+    border: 2px solid gray;
+    width: 400px;
+    
+}
+tr, td{
+    border: 1px solid black;
+
+}
+tr{
+    background-color: #00CAFD;
+}
+
+.buttons{
+    height: 40px;
+}
+
+.btn{
+    background-color: #EFEFEF;
+    border: 1px solid black;
+    width: 120px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.btnFlex{
+    margin-left: 13px;
+}
+
+.tenPx{
+    padding-left: 20px;
+}
