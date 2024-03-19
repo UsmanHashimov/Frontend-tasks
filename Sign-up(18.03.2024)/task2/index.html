@@ -17,20 +17,31 @@
         </tr>
         <tr>
             <td>Enter Password</td>
-            <td><input type="text" style="margin-left: 20px;"></td>
+            <td><input type="password" style="margin-left: 20px;"></td>
         </tr>
         <tr>
             <td style="height: 60px; width: 120px;">Enter Address</td>
-            <td><input type="text" style="height: 50px; margin-left: 20px;"></td>
+            <td><textarea style="max-width: 250px; max-height: 100px; margin-left: 20px;"></textarea></td>
         </tr>
         <tr>
-            <td style="height: 100px;">Select Game</td>
             <td>
-                <input type="checkbox" style="margin-left: 30px;">Hockey
-                <input type="checkbox">Football
-                <input type="checkbox">Badminton
-                <input type="checkbox" style="margin-left: 30px;">Cricket
-                <input type="checkbox">Volleyball
+                Select Game
+            </td>
+            <td>
+                <input  type="checkbox" name="hockey" id="hockey" style="margin-left: 20px;">
+                <label  for="hockey">Hockey</label>
+                <br>
+                <input  type="checkbox" name="Football" id="Football" style="margin-left: 20px;">
+                <label  for="Football">FootBall</label>
+                <br>
+                <input  type="checkbox" name="Badminton" id="Badminton" style="margin-left: 20px;">
+                <label  for="Badminton">Badminton</label>
+                <br>
+                <input  type="checkbox" name="Cricket" id="Cricket" style="margin-left: 20px;">
+                <label  for="Cricket">Cricket</label>
+                <br>
+                <input  type="checkbox" name="volleyball" id="volleyball" style="margin-left: 20px;">
+                <label  for="volleyball">Volleyball</label>
             </td>
         </tr>
         <tr>
@@ -40,9 +51,7 @@
         <tr>
             <td>Select ur age</td>
             <td>
-                <select name="" id="" style="margin-left: 20px; width: 100px;">
-                    <option value="18+">Select</option>
-                </select>
+                <input type="number" min="1" max="100" style="margin-left: 20px;">
             </td>
         </tr>
         <tr>
@@ -50,10 +59,10 @@
             <td><input type="file" style="margin-left: 20px;"></td>
         </tr>
         <tr>
-            <td colspan="2" style="height: 55px;">
-                <input type="submit" style="margin-left: 50px; font-size: 130%; height: 50px;" value="Click me">
-                <input type="submit" style="font-size: 130%; height: 50px;" value="Reset">
-                <input type="submit" style="font-size: 130%; height: 50px;" value="Submit Form">
+           <td colspan="2">
+                <input class="btn btnFlex" type="button" value="Click Me"> 
+                <input class="btn" type="button" value="Reset"> 
+                <input class="btn" type="submit" name="submit" id="submit" value="Submit Form">
             </td>
         </tr>
     </table>
